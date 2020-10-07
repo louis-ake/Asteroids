@@ -1,2 +1,2 @@
 # Asteroids
-Asteroids game mad with Unity and C#
+Asteroids game made with Unity and C#
