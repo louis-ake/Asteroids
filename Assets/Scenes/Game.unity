@@ -167,7 +167,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &561307351
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -222,7 +222,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &865016537
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -446,7 +446,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
-  m_SortingLayerID: 0
+  m_SortingLayerID: -964866631
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!1 &1306020088
@@ -529,11 +529,13 @@ MonoBehaviour:
   _asteroidController: {fileID: 561307351}
   _popUpText: {fileID: 1474622752}
   _lives: {fileID: 865016537}
+  _gameStartMessage: PRESS SPACE TO START
   _lifeLostMessage: YOU LOST A LIFE :(
   _loseMessage: YOU LOST :( :( :(
   _winMessage: YOU WON :)
   _loseColour: {r: 1, g: 0.3956946, b: 0.36320752, a: 1}
   _winColour: {r: 0.48770744, g: 1, b: 0.4764151, a: 1}
+  _startGameColour: {r: 0.38039216, g: 0.43529412, b: 1, a: 1}
 --- !u!1 &1474622750
 GameObject:
   m_ObjectHideFlags: 0
@@ -568,8 +570,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0.5}
-  m_SizeDelta: {x: 370.64648, y: 36.300323}
+  m_AnchoredPosition: {x: 1.9, y: -7.5}
+  m_SizeDelta: {x: 526.8475, y: 61.843033}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1474622752
 MonoBehaviour:
@@ -584,7 +586,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.2688679, b: 0.2688679, a: 1}
+  m_Color: {r: 0.3820755, g: 0.43518692, b: 1, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -592,7 +594,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -603,7 +605,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: PRESS SPACE TO START
 --- !u!222 &1474622753
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -631,7 +633,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1539894881
 SpriteRenderer:
   m_ObjectHideFlags: 0

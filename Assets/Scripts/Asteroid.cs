@@ -14,11 +14,11 @@ public class Asteroid : MonoBehaviour
     [Header("Asteroid speed boundaries")]
 
     [SerializeField] private float _largeMinSpeed = 5;
-    [SerializeField] private float _largeMaxSpeed = 20;
-    [SerializeField] private float _mediumMinSpeed = 20;
-    [SerializeField] private float _mediumMaxSpeed = 40;
-    [SerializeField] private float _smallMinSpeed = 40;
-    [SerializeField] private float _smallMaxSpeed = 100;
+    [SerializeField] private float _largeMaxSpeed = 15;
+    [SerializeField] private float _mediumMinSpeed = 15;
+    [SerializeField] private float _mediumMaxSpeed = 30;
+    [SerializeField] private float _smallMinSpeed = 30;
+    [SerializeField] private float _smallMaxSpeed = 60;
 
 
     private void Start()
